@@ -1,0 +1,343 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body{
+    line-height: 1.7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.page-header{
+    margin: 0 auto;
+    background: rgb(181, 84, 237);
+    padding: 1em;
+}
+.primary-header:before,
+.primary-header:after {
+  content: "";
+  display: table;
+}
+.primary-header:after {
+  clear: both;
+}
+.primary-header {
+  clear: both;
+  *zoom: 1;
+}
+
+ a{
+    text-decoration: none;
+    color: #fff;
+}
+.speaker-info li{
+    list-style: none;
+}
+a:hover{
+    color: #a9b2b9;
+}
+.active,
+active:hover{
+    color: red;
+    /* background: #000; */
+    border: 2px dotted #fff;
+    padding: 10px;
+}
+
+h1, h2, h3, h4 {
+    color: #648880;
+    font-size: 30px;
+    line-height: 44px;
+  }
+  h1, h3, h4, h5, p {
+    margin-bottom: 22px;
+  }
+  
+  h5 {
+    color: #a9b2b9;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+
+.navbar ul{
+    text-align: right;
+    font-size: 20px;
+  }
+  .navbar li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+  }
+  .nav li:last-child {
+    margin-right: 0;
+  }
+
+.timeline {
+    margin-left: 17rem;
+    font-size: 30px;
+    
+  }
+.menu{
+    font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+
+.logo {
+      
+        float: left;
+        font-size: 70px;
+        font-weight: 100;
+        letter-spacing: .15px;
+        line-height: 60px;
+        margin-left: 1em;
+        text-transform: uppercase;
+        
+      }
+    
+      .secondry-header{
+          text-align: center;
+      }
+.sup-header h4{
+    font-size: 30pt;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.sup-header p{
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+
+.btn{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: .5px;
+    margin: 0;
+    padding: 1em;
+    text-transform: uppercase;
+    background: #111;
+    font-size: 15pt;
+}
+.btn:hover{
+    background: #77a198;
+    color: #f3f9f7;
+}
+
+.main-section{
+    /* width: 80%; */
+    /* margin: 0 auto; */
+}
+
+.row-col{
+    display: flex;
+}
+
+.lead h1 {
+    font-size: 4em;
+}
+
+.lead p{
+    font-size: 15pt;
+    margin: 10px;
+}
+
+.group-footer{
+    clear: both;
+    /* width: 100%; */
+    background: rgb(181, 84, 237);
+    /* display: flex; */
+    color: #fff;
+  font-size: 14px;
+  padding: 1.5em;
+}
+
+.group-footer small{
+    float: left;
+    font-weight: 400;
+    /* margin-left: 2em; */
+    font-size: 20pt;
+}
+.mini{
+    padding: 6.5em;
+}
+aside{
+    float: right;
+}
+
+
+.sup-header {
+  margin: 0 auto;
+  width: 960px;
+}
+.main{
+    margin: 30px;
+    
+}
+.venue-address{
+    font-size: 20pt;
+    margin-right: 5em;
+}
+.venue-address a{
+    color: #a9b2b9;
+}
+
+.venue-theatre {
+    margin-bottom: 66px;
+  }
+  .venue-hotel {
+    margin-bottom: 22px;
+  }
+  .venue-map {
+    height: 264px;
+  }
+.article{
+    display: flex;
+}
+.sidebar{
+    width: 100%;
+    height: 100%;
+}
+
+
+.why-attend {
+    list-style: square;
+    margin: 0 0 22px 30px;
+  }
+
+  input,
+  select,
+  textarea {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .register-group label {
+    color: #648880;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .register-group input,
+  .register-group select,
+  .register-group textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+  }
+  .register-group input,
+  .register-group textarea {
+    width: 100%;
+  }
+  .register-group select {
+    height: 34px;
+    width: 60px;
+  }
+  .register-group textarea {
+    height:90px;
+  }
+  .btn-default{
+      margin: 20px 0;
+  }
+
+.section,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+.section,
+.col-2-3  {
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
+.col-2-3 {
+  width: 50.66%;
+  margin: 2em;
+}
+.col-2-3-1{
+    width: 90%;
+}
+.section img{
+    border-radius: 5px;
+    width: 100%;
+    height: 50%;
+}
+
+
+.row-alt {
+  min-width: 960px;
+  text-align: center;
+}
+.main-section {
+  padding: 66px 0 44px 0;
+}
+.row-alt {
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 44px 0 22px 0;
+}
+
+.speaker {
+    margin-bottom: 44px;
+  }
+  .speaker-info {
+    border: 1px solid #376696;
+    margin-top: 88px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: 4em;
+  }
+  .speaker-info img {
+      width: 50%;
+    border-radius: 50%;
+    height: 140px;
+    margin: -66px 0 10px;
+    vertical-align: top;
+  }
+  .speaker-info a{
+      color: #111;
+  }
